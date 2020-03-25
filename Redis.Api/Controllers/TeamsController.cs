@@ -17,6 +17,7 @@ namespace Redis.Api.Controllers
         {
             _logger = logger;
             _cacheRedis = cacheRedis;
+            
         }
 
         public async Task<IActionResult> Get()
