@@ -20,6 +20,7 @@ namespace Redis.Api.Controllers
             
         }
 
+        [HttpGet]
         public async Task<IActionResult> Get()
         {
             var result = await _cacheRedis.GetAsync<Teams>("urn:teams:patriots");

@@ -4,5 +4,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="StackExchange.Redis.Extensions.Newtonsoft" Version="5.5.0"/>
+    <PackageReference Include="Serilog" Version="2.9.0"/>
   </ItemGroup>
 </Project>
